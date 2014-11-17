@@ -10,6 +10,7 @@ namespace MainApp
     {
         static void Main(string[] args)
         {
+            //add this comment for 2nd version
             CalculatorCore cal = new CalculatorCore();
             Console.WriteLine(cal.add(1, 2));
             Console.ReadLine();
